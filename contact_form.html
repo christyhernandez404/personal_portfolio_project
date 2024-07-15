@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" rows="4" cols=""50></textarea><br><br>
+
+        <label for="preference">Would you like to be contacted back via phone?</label>
+        <input type="checkbox" id="preference" name="preference" value="yes"><br><br>
+
+        <label for="time_of_day">What time of day do you prefer?</label><br>
+
+        <input type="radio" id="morning" name="when_to_contact" value="morning">
+        <label for="morning">Morning</label>
+
+        <input type="radio" id="afternoon" name="when_to_contact"" value="afternoon">
+        <label for="afternoon">Afternoon</label>
+
+        <input type="radio" id="night" name="when_to_contact"" value="night">
+        <label for="night"> Night</label><br><br>
+
+       
+        <input type="submit" value="Submit"><br><br><br><br><br><br>
+    </form>
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/work.html">Work</a>
+        <a href="/contact_form.html">Contact</a>
+        <a href="/experience.html">Experience</a>
+
+    </nav>
+</body>
+</html>
